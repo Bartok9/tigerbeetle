@@ -90,7 +90,7 @@ Values up to `2^32 - 1` were accepted, and the TigerBeetle cluster was
 responsible for capping the number of results to fit the message size.
 
 Now the TigerBeetle client enforces a valid `limit` and rejects requests with limits
-greater than the [maximum batch size](../coding/requests.md#batching-events),
+greater than the [maximum batch size](../coding/requests.md#batching-batching-batching),
 returning the `too_much_data` error code.
 
 This is the same behavior as when, for example,
